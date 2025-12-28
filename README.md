@@ -19,6 +19,9 @@ Core Python library for pathway representations and network-based searches.
 
 [![PyPI](https://badge.fury.io/py/napistu.svg)](https://pypi.org/project/napistu/)
 [![Documentation](https://readthedocs.org/projects/napistu/badge/?version=latest)](https://napistu.readthedocs.io/)
+[![CI](https://github.com/napistu/napistu-py/actions/workflows/ci.yml/badge.svg)](https://github.com/napistu/napistu-py/actions/workflows/ci.yml)
+[![Release](https://github.com/napistu/napistu-py/actions/workflows/release.yml/badge.svg)](https://github.com/napistu/napistu-py/actions/workflows/release.yml)
+[![Deploy to Cloud Run](https://github.com/napistu/napistu-py/actions/workflows/deploy.yml/badge.svg)](https://github.com/napistu/napistu-py/actions/workflows/deploy.yml)
 
 ```bash
 pip install napistu
@@ -29,6 +32,8 @@ PyTorch Geometric framework for training GNNs on biological pathways.
 
 [![PyPI](https://badge.fury.io/py/napistu-torch.svg)](https://pypi.org/project/napistu-torch/)
 [![Documentation](https://readthedocs.org/projects/napistu-torch/badge/?version=latest)](https://napistu-torch.readthedocs.io/)
+[![CI](https://github.com/napistu/napistu-torch/actions/workflows/ci.yml/badge.svg)](https://github.com/napistu/napistu-torch/actions/workflows/ci.yml)
+[![Release](https://github.com/napistu/napistu-torch/actions/workflows/release.yml/badge.svg)](https://github.com/napistu/napistu-torch/actions/workflows/release.yml)
 
 ```bash
 pip install 'napistu-torch[pyg,lightning]'
@@ -37,7 +42,9 @@ pip install 'napistu-torch[pyg,lightning]'
 ### [napistu-r](https://github.com/napistu/napistu-r)
 R library for network visualization and utilities.
 
-[![pkgdown](https://github.com/napistu/napistu-r/actions/workflows/pkgdown.yaml/badge.svg)](https://napistu.github.io/napistu-r/)
+[![pkgdown site](https://github.com/napistu/napistu-r/actions/workflows/pkgdown.yaml/badge.svg)](https://napistu.github.io/napistu-r/)
+[![R-CMD-check](https://github.com/napistu/napistu-r/actions/workflows/R-CMD-check-PR.yaml/badge.svg)](https://github.com/napistu/napistu-r/actions/workflows/R-CMD-check-PR.yaml)
+[![pkgdown](https://github.com/napistu/napistu-r/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/napistu/napistu-r/actions/workflows/pkgdown.yaml)
 
 ```r
 remotes::install_github("napistu/napistu-r")
